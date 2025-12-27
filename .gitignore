@@ -1,27 +1,19 @@
-# Python
 __pycache__/
 *.pyc
-.venv/
-.env/
-
-# Jupyter
 .ipynb_checkpoints/
-
-# OS
 .DS_Store
 Thumbs.db
 
-# Data & artifacts (keep .gitkeep files)
+# Big data/artifacts
 data/raw/*
 data/processed/*
+models/*
+outputs/*
+reports/figures/*
+
+# Keep folder placeholders
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-
-models/*
 !models/.gitkeep
-
-outputs/*
 !outputs/.gitkeep
-
-reports/figures/*
 !reports/figures/.gitkeep
