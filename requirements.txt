@@ -5,3 +5,6 @@ scikit-learn
 statsmodels
 pyarrow
 joblib
+streamlit>=1.36
+pydeck>=0.9
+requests
